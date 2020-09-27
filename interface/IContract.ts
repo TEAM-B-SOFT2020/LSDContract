@@ -7,22 +7,27 @@ import IPassenger from "./IPassenger";
 import IBookingDetail from "./DTO/IBookingDetail";
 import IReservationSummary from "./DTO/IReservationSummary";
 import IBookingIdentifier from "./IBookingIdentifier";
+import NotFoundError from "../error/NotFoundError";
+import InvalidInputError from "../error/InvalidInputError";
+import IFlightIdentifier from "./IFlightIdentifier";
+import IReservationDetail from "./DTO/IReservationDetail";
+import InconsistentLengthError from "../error/InconsistentLengthError";
 
 
 export default interface IContract {
 
-    getCarrierInformation(iata: string): ICarrierDetail | never
-    
-    getAirportInformation(iata: string): IAirportDetail | never
+    getCarrierInformation(iata: string): ICarrierDetail | NotFoundError | InvalidInputError
 
-    getFlightsAvailable(departure: IAirportDetail, arrival: IAirportDetail, depart: Moment): IFlightSummary[] | never
+    getAirportInformation(iata: string): IAirportDetail | NotFoundError | InvalidInputError
 
-    reserveFlight(flight: IFlightSummary, week: number, amountSeats: number): IReservationSummary | never
+    getFlightsAvailable(departure: IAirportDetail, arrival: IAirportDetail, depart: Moment): IFlightSummary[] | NotFoundError | InvalidInputError
 
-    bookFlight(reservedIds: IReservationIdentifier[], passengers: IPassenger[], creditCardNumber:number, frequentFlyerNumber: number): IBookingDetail | never
+    reserveFlight(id: IFlightIdentifier, amountSeats: number): IReservationSummary | NotFoundError | InvalidInputError
 
-    getBooking(id: IBookingIdentifier): IBookingDetail | never
+    bookFlight(reservedIds: IReservationDetail[], creditCardNumber:number, frequentFlyerNumber: number): IBookingDetail | InconsistentLengthError | NotFoundError | InvalidInputError
 
-    cancelBooking(id: IBookingIdentifier): void | never 
+    getBooking(id: IBookingIdentifier): IBookingDetail | NotFoundError | InvalidInputError
+
+    cancelBooking(id: IBookingIdentifier): void | NotFoundError | InvalidInputError
 
 }
