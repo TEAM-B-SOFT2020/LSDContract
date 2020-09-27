@@ -23,6 +23,6 @@ export default interface IContract {
 
     getBooking(id: IBookingIdentifier): IBookingDetail | never
 
-    cancelBooking(id: IBookingIdentifier): void | never
+    cancelBooking(id: IBookingIdentifier): void | never 
 
 }
