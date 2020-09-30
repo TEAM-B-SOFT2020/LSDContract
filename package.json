@@ -20,7 +20,6 @@
   "devDependencies": {
     "braintree-jsdoc-template": "^3.3.0",
     "jsdoc": "^3.6.6",
-    "typedoc": "^0.19.2",
-    "typedoc-plugin-markdown": "^3.0.3"
+    "typedoc": "^0.19.2"
   }
 }
