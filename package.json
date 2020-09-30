@@ -6,7 +6,7 @@
   "scripts": {
     "start": "yarn ts-node index.ts",
     "test": "mocha --timeout 10000",
-    "gendocs": "npx typedoc --out docs interface --readme none --plugin typedoc-plugin-markdown"
+    "gendocs": "typedoc --out docs interface --readme none"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +14,11 @@
   "dependencies": {
     "moment-timezone": "^0.5.31",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2"
   },
   "devDependencies": {
+    "braintree-jsdoc-template": "^3.3.0",
     "jsdoc": "^3.6.6",
     "typedoc": "^0.19.2",
     "typedoc-plugin-markdown": "^3.0.3"

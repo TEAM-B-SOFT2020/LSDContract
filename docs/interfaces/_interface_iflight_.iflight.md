@@ -31,7 +31,7 @@
 
 •  **arrivalAirport**: [IAirportIdentifier](_interface_iairportidentifier_.iairportidentifier.md)
 
-*Defined in [interface/IFlight.ts:13](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L13)*
+*Defined in [interface/IFlight.ts:13](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L13)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **arrivalDate**: Moment
 
-*Defined in [interface/IFlight.ts:10](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L10)*
+*Defined in [interface/IFlight.ts:10](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L10)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 •  **carrier**: [ICarrierDetail](_interface_dto_icarrierdetail_.icarrierdetail.md)
 
-*Defined in [interface/IFlight.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L7)*
+*Defined in [interface/IFlight.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L7)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 •  **departureAirport**: [IAirportIdentifier](_interface_iairportidentifier_.iairportidentifier.md)
 
-*Defined in [interface/IFlight.ts:12](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L12)*
+*Defined in [interface/IFlight.ts:12](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L12)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 •  **departureDate**: Moment
 
-*Defined in [interface/IFlight.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L9)*
+*Defined in [interface/IFlight.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L9)*
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 *Inherited from [IFlightIdentifier](_interface_iflightidentifier_.iflightidentifier.md).[flightCode](_interface_iflightidentifier_.iflightidentifier.md#flightcode)*
 
-*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlightIdentifier.ts#L4)*
+*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlightIdentifier.ts#L4)*

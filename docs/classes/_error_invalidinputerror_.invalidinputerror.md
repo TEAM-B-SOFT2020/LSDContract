@@ -29,7 +29,7 @@
 
 \+ **new InvalidInputError**(`message`: string): [InvalidInputError](_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [error/InvalidInputError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/error/InvalidInputError.ts#L2)*
+*Defined in [error/InvalidInputError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/error/InvalidInputError.ts#L2)*
 
 #### Parameters:
 

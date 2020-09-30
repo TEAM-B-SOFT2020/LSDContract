@@ -26,7 +26,7 @@
 
 *Inherited from [IPassenger](_interface_ipassenger_.ipassenger.md).[firstName](_interface_ipassenger_.ipassenger.md#firstname)*
 
-*Defined in [interface/IPassenger.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IPassenger.ts#L3)*
+*Defined in [interface/IPassenger.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IPassenger.ts#L3)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 *Inherited from [IPassenger](_interface_ipassenger_.ipassenger.md).[lastName](_interface_ipassenger_.ipassenger.md#lastname)*
 
-*Defined in [interface/IPassenger.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IPassenger.ts#L4)*
+*Defined in [interface/IPassenger.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IPassenger.ts#L4)*
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 •  **pnr**: string
 
-*Defined in [interface/DTO/IFlightPassenger.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IFlightPassenger.ts#L5)*
+*Defined in [interface/DTO/IFlightPassenger.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IFlightPassenger.ts#L5)*

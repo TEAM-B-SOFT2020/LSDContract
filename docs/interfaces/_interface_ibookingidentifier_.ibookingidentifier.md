@@ -22,4 +22,4 @@
 
 •  **id**: string
 
-*Defined in [interface/IBookingIdentifier.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IBookingIdentifier.ts#L5)*
+*Defined in [interface/IBookingIdentifier.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IBookingIdentifier.ts#L5)*

@@ -22,4 +22,4 @@
 
 •  **iata**: string
 
-*Defined in [interface/IAirportIdentifier.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IAirportIdentifier.ts#L3)*
+*Defined in [interface/IAirportIdentifier.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IAirportIdentifier.ts#L3)*

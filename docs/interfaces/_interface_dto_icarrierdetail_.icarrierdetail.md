@@ -21,7 +21,7 @@
 
 •  **iata**: string
 
-*Defined in [interface/DTO/ICarrierDetail.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/ICarrierDetail.ts#L3)*
+*Defined in [interface/DTO/ICarrierDetail.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/ICarrierDetail.ts#L3)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **name**: string
 
-*Defined in [interface/DTO/ICarrierDetail.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/ICarrierDetail.ts#L4)*
+*Defined in [interface/DTO/ICarrierDetail.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/ICarrierDetail.ts#L4)*

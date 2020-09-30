@@ -26,7 +26,7 @@
 
 •  **creditCardNumber**: number
 
-*Defined in [interface/DTO/IBookingDetail.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IBookingDetail.ts#L7)*
+*Defined in [interface/DTO/IBookingDetail.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IBookingDetail.ts#L7)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **flightBookings**: [IFlightBookingDetail](_interface_dto_iflightbookingdetail_.iflightbookingdetail.md)[]
 
-*Defined in [interface/DTO/IBookingDetail.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IBookingDetail.ts#L9)*
+*Defined in [interface/DTO/IBookingDetail.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IBookingDetail.ts#L9)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **frequentFlyerId**: string
 
-*Defined in [interface/DTO/IBookingDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IBookingDetail.ts#L6)*
+*Defined in [interface/DTO/IBookingDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IBookingDetail.ts#L6)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 *Inherited from [IBookingIdentifier](_interface_ibookingidentifier_.ibookingidentifier.md).[id](_interface_ibookingidentifier_.ibookingidentifier.md#id)*
 
-*Defined in [interface/IBookingIdentifier.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IBookingIdentifier.ts#L5)*
+*Defined in [interface/IBookingIdentifier.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IBookingIdentifier.ts#L5)*
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 •  **price**: number
 
-*Defined in [interface/DTO/IBookingDetail.ts:8](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IBookingDetail.ts#L8)*
+*Defined in [interface/DTO/IBookingDetail.ts:8](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IBookingDetail.ts#L8)*

@@ -29,7 +29,7 @@
 
 \+ **new InconsistentLengthError**(`message`: string): [InconsistentLengthError](_error_inconsistentlengtherror_.inconsistentlengtherror.md)
 
-*Defined in [error/InconsistentLengthError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/error/InconsistentLengthError.ts#L2)*
+*Defined in [error/InconsistentLengthError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/error/InconsistentLengthError.ts#L2)*
 
 #### Parameters:
 

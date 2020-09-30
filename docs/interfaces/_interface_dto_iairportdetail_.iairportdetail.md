@@ -26,7 +26,7 @@
 
 *Inherited from [IAirportIdentifier](_interface_iairportidentifier_.iairportidentifier.md).[iata](_interface_iairportidentifier_.iairportidentifier.md#iata)*
 
-*Defined in [interface/IAirportIdentifier.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IAirportIdentifier.ts#L3)*
+*Defined in [interface/IAirportIdentifier.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IAirportIdentifier.ts#L3)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **name**: string
 
-*Defined in [interface/DTO/IAirportDetail.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IAirportDetail.ts#L5)*
+*Defined in [interface/DTO/IAirportDetail.ts:5](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IAirportDetail.ts#L5)*
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 •  **timeZone**: string
 
-*Defined in [interface/DTO/IAirportDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IAirportDetail.ts#L6)*
+*Defined in [interface/DTO/IAirportDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IAirportDetail.ts#L6)*

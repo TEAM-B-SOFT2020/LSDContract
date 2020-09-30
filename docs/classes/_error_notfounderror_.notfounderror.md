@@ -29,7 +29,7 @@
 
 \+ **new NotFoundError**(`message`: string): [NotFoundError](_error_notfounderror_.notfounderror.md)
 
-*Defined in [error/NotFoundError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/error/NotFoundError.ts#L2)*
+*Defined in [error/NotFoundError.ts:2](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/error/NotFoundError.ts#L2)*
 
 #### Parameters:
 

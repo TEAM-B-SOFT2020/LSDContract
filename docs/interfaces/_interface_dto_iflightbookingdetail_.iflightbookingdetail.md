@@ -30,7 +30,7 @@
 
 *Inherited from [IFlight](_interface_iflight_.iflight.md).[arrivalAirport](_interface_iflight_.iflight.md#arrivalairport)*
 
-*Defined in [interface/IFlight.ts:13](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L13)*
+*Defined in [interface/IFlight.ts:13](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L13)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [IFlight](_interface_iflight_.iflight.md).[arrivalDate](_interface_iflight_.iflight.md#arrivaldate)*
 
-*Defined in [interface/IFlight.ts:10](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L10)*
+*Defined in [interface/IFlight.ts:10](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L10)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 *Inherited from [IFlight](_interface_iflight_.iflight.md).[carrier](_interface_iflight_.iflight.md#carrier)*
 
-*Defined in [interface/IFlight.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L7)*
+*Defined in [interface/IFlight.ts:7](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L7)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 *Inherited from [IFlight](_interface_iflight_.iflight.md).[departureAirport](_interface_iflight_.iflight.md#departureairport)*
 
-*Defined in [interface/IFlight.ts:12](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L12)*
+*Defined in [interface/IFlight.ts:12](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L12)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 *Inherited from [IFlight](_interface_iflight_.iflight.md).[departureDate](_interface_iflight_.iflight.md#departuredate)*
 
-*Defined in [interface/IFlight.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlight.ts#L9)*
+*Defined in [interface/IFlight.ts:9](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlight.ts#L9)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [IFlightIdentifier](_interface_iflightidentifier_.iflightidentifier.md).[flightCode](_interface_iflightidentifier_.iflightidentifier.md#flightcode)*
 
-*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlightIdentifier.ts#L4)*
+*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlightIdentifier.ts#L4)*
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 •  **passengers**: [IFlightPassenger](_interface_dto_iflightpassenger_.iflightpassenger.md)[]
 
-*Defined in [interface/DTO/IFlightBookingDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/DTO/IFlightBookingDetail.ts#L6)*
+*Defined in [interface/DTO/IFlightBookingDetail.ts:6](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/DTO/IFlightBookingDetail.ts#L6)*

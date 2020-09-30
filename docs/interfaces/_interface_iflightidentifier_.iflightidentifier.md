@@ -22,4 +22,4 @@
 
 •  **flightCode**: string
 
-*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IFlightIdentifier.ts#L4)*
+*Defined in [interface/IFlightIdentifier.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IFlightIdentifier.ts#L4)*

@@ -23,7 +23,7 @@
 
 •  **firstName**: string
 
-*Defined in [interface/IPassenger.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IPassenger.ts#L3)*
+*Defined in [interface/IPassenger.ts:3](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IPassenger.ts#L3)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 •  **lastName**: string
 
-*Defined in [interface/IPassenger.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IPassenger.ts#L4)*
+*Defined in [interface/IPassenger.ts:4](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IPassenger.ts#L4)*

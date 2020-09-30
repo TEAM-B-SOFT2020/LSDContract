@@ -32,7 +32,7 @@ The contract for integration between the backend and frontent
 
 ▸ **cancelBooking**(`id`: [IBookingIdentifier](_interface_ibookingidentifier_.ibookingidentifier.md)): void \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:90](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L90)*
+*Defined in [interface/IContract.ts:90](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L90)*
 
 This method cancels a booking
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **createBooking**(`reservationDetails`: [IReservationDetail](_interface_dto_ireservationdetail_.ireservationdetail.md)[], `creditCardNumber`: number, `frequentFlyerNumber?`: number): [IBookingDetail](_interface_dto_ibookingdetail_.ibookingdetail.md) \| [InconsistentLengthError](../classes/_error_inconsistentlengtherror_.inconsistentlengtherror.md) \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:73](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L73)*
+*Defined in [interface/IContract.ts:73](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L73)*
 
 This method books a trip of already reserved flights.
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **getAirportInformation**(`iata`: string): [IAirportDetail](_interface_dto_iairportdetail_.iairportdetail.md) \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:39](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L39)*
+*Defined in [interface/IContract.ts:39](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L39)*
 
 A getter for Airport information
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **getBooking**(`id`: [IBookingIdentifier](_interface_ibookingidentifier_.ibookingidentifier.md)): [IBookingDetail](_interface_dto_ibookingdetail_.ibookingdetail.md) \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:82](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L82)*
+*Defined in [interface/IContract.ts:82](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L82)*
 
 A getter for bookings
 
@@ -120,7 +120,7 @@ ___
 
 ▸ **getCarrierInformation**(`iata`: string): [ICarrierDetail](_interface_dto_icarrierdetail_.icarrierdetail.md) \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:31](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L31)*
+*Defined in [interface/IContract.ts:31](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L31)*
 
 A getter for Carrier information
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **getFlightsAvailable**(`departure`: [IAirportIdentifier](_interface_iairportidentifier_.iairportidentifier.md), `arrival`: [IAirportIdentifier](_interface_iairportidentifier_.iairportidentifier.md), `depart`: Moment): [IFlightSummary](_interface_dto_iflightsummary_.iflightsummary.md)[] \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:50](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L50)*
+*Defined in [interface/IContract.ts:50](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L50)*
 
 This method returns the flights available between two given airports on a given day.
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **reserveFlight**(`id`: [IFlightIdentifier](_interface_iflightidentifier_.iflightidentifier.md), `amountSeats`: number): [IReservationSummary](_interface_dto_ireservationsummary_.ireservationsummary.md) \| [NotFoundError](../classes/_error_notfounderror_.notfounderror.md) \| [InvalidInputError](../classes/_error_invalidinputerror_.invalidinputerror.md)
 
-*Defined in [interface/IContract.ts:61](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/022c8e3/interface/IContract.ts#L61)*
+*Defined in [interface/IContract.ts:61](https://github.com/TEAM-B-SOFT2020/LSDContract/blob/fd28498/interface/IContract.ts#L61)*
 
 This method makes a flight reservation.
 
