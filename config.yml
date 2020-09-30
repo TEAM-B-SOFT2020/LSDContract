@@ -1,6 +1,6 @@
 include:
   - "_*_.html"
   - "_*_.*.html"
-  - "modules/_*_.*.html"
+  - "modules/_*_*_.html"
   - "modules/_*_.html"
   - "modules/_*_.html"
