@@ -1,6 +1,5 @@
-import IPassenger from "../IPassenger";
-
+import IPassenger from '../IPassenger';
 
 export default interface IFlightPassenger extends IPassenger {
-    pnr: string
+	pnr: string;
 }
