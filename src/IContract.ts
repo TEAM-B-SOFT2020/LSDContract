@@ -11,6 +11,7 @@ import IAirportIdentifier from './IAirportIdentifier';
 import NotFoundError from './ETO/NotFoundError';
 import InvalidInputError from './ETO/InvalidInputError';
 import InconsistentLengthError from './ETO/InconsistentLengthError';
+import IPassengerIdentifier from './IPassengerIdentifier';
 
 /**
  * The contract for integration between the backend and frontent
@@ -66,22 +67,31 @@ export default interface IContract {
 	 * @returns A booking detail with the price and list of flights
 	 * @throws [[InconsistentLengthError]] | [[NotFoundError]] | [[InvalidInputError]]
 	 */
-	createBooking(reservationDetails: IReservationDetail[], creditCardNumber: number, frequentFlyerNumber?: number): Promise<IBookingDetail>;
+	createBooking(reservationDetails: IReservationDetail[], creditCardNumber: number, frequentFlyerNumber?: string): Promise<IBookingDetail>;
 
 	/**
-	 * A getter for bookings
+	 * A getter for bookings on booking identifier
 	 *
-	 * @param id The booking identifier
+	 * @param id The booking identifier containing the booking id
 	 * @returns A booking detail with the price and list of flights
 	 * @throws [[NotFoundError]] | [[InvalidInputError]]
 	 */
-	getBooking(id: IBookingIdentifier): Promise<IBookingDetail>;
+	getBookingOnBookingId(id: IBookingIdentifier): Promise<IBookingDetail>;
+
+	/**
+	 * A getter for bookings on passenger identifier
+	 *
+	 * @param id The passenger identifier containing the PNR of the passenger
+	 * @returns A booking detail with the price and list of flights
+	 * @throws [[NotFoundError]] | [[InvalidInputError]]
+	 */
+	getBooking(passenger: IPassengerIdentifier): Promise<IBookingDetail>;
 
 	/**
 	 * This method cancels a booking
 	 *
-	 * @param id The booking identifier
+	 * @param id The passenger identifier containing the PNR of the passenger
 	 * @throws [[NotFoundError]] | [[InvalidInputError]]
 	 */
-	cancelBooking(id: IBookingIdentifier): Promise<void>;
+	cancelBooking(passenger: IPassengerIdentifier): Promise<void>;
 }
